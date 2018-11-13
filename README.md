@@ -12,6 +12,6 @@
 ## Members
 |name|work|
 |----|----|
-|김재연|    |
+|김재연|clerk|
 |이하영|develop|
 |여채린|    |
