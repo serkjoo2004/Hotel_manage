@@ -2,8 +2,8 @@ import java.sql.*;
 
 public class MySQLConnectTest {
     private static Connection dbTest;
-    private String id = "one";
-    private String password = "one111";
+    private String id = "username";
+    private String password = "password";
 
     MySQLConnectTest() {
         connectDB();
