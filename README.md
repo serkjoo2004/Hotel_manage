@@ -12,7 +12,7 @@
 ## Members
 |name|work|
 |----|----|
-|김재연|clerk|
+|김재연|design|
 |이하영|develop|
 |여채린|    |
 |김동률|    |
