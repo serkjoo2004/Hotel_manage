@@ -4,10 +4,9 @@
 -호텔 시스템 관리 웹 페이지 제작
 
 ## Usages
-- JAVA
-- JDBC
-- MySQL
-- Spring boot
+- Python3
+- MariaDB
+- Django
 
 ## Members
 |name|work|
