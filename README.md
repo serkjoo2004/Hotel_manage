@@ -6,6 +6,7 @@
 ## Usages
 - Python3
 - MariaDB v10.2.19
+  - PyMySQL v0.9.2
 - Django
 
 ## Members
