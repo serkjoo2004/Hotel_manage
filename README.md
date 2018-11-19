@@ -5,7 +5,7 @@
 
 ## Usages
 - Python3
-- MariaDB
+- MariaDB v10.2.19
 - Django
 
 ## Members
