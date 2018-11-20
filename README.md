@@ -14,7 +14,7 @@
 |----|----|
 |김재연|design|
 |이하영|develop|
-|여채린|    |
+|여채린|develop|
 |김동률|develop|
 |이규민|    |
 |박석주|design|
