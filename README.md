@@ -12,10 +12,10 @@
 ## Members
 |name|work|
 |----|----|
-|김재연|design|
-|이하영|develop|
-|여채린|develop|
-|김동률|develop|
-|이규민|    |
-|박석주|design|
-|이상준|develop|
+|김재연|frontend|
+|이하영|backend|
+|여채린|backend|
+|김동률|backend|
+|이규민|backend|
+|박석주|frontend|
+|이상준|backend|
