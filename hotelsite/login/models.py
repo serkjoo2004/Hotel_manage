@@ -16,7 +16,7 @@ class Guest(models.Model):
     def __str__(self):
         return self.guest_id
 
-class Staff(models.Model): 
+class Staff(models.Model):
     staff_id = models.IntegerField()
     first_name = models.CharField(max_length=10) 
     last_name = models.CharField(max_length=10) 
