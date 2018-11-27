@@ -19,3 +19,4 @@
 |이규민|backend|
 |박석주|frontend|
 |이상준|backend|
+|김성준|frontend|
