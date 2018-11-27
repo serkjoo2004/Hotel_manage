@@ -2,10 +2,19 @@
 {% load staticfiles %}
 
 {% block content %}
-    {% for room in rooms %}
-    <div class = "room">
-        {{room.room_num}} {{room.type}} {{room.status_clean}}
-    </div>
     
-    {% endfor %}
+    <div class="row">
+        <div class="col-md-3">호실</div>
+        <div class="col-md-3">타입</div>
+        <div class="col-md-3">청소상태</div>
+        <div class="col-md-3">예약상태</div>
+    </div>
+    {% for room in rooms %}
+        <div class = "row">
+            <div class="col-md-3">{{room.room_num}}</div>
+            <div class="col-md-3">{{room.type}}</div>
+            <div class="col-md-3">{{room.status_clean}}</div> 
+        </div>    
+    {% endfor %}  
+    
 {% endblock %}
