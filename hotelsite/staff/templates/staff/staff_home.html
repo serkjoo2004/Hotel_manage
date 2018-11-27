@@ -1,3 +1,11 @@
-<html>
-    <p>직원 홈화면</p>
-</html>
+{% extends 'staff/staff_base.html' %}
+{% load staticfiles %}
+
+{% block content %}
+    {% for room in rooms %}
+    <div class = "room">
+        {{room.room_num}} {{room.type}} {{room.status_clean}}
+    </div>
+    
+    {% endfor %}
+{% endblock %}

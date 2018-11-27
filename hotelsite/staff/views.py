@@ -1,5 +1,7 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
+from .models import Room
 
 def staff_home(request):
-    return render(request, 'staff/staff_home.html')
-# Create your views here.
+    rooms = Room.objects.order_by('room_num')
+    return render(request, 'staff/staff_home.html', {'rooms':rooms})
+
