@@ -1,5 +1,9 @@
 from django.shortcuts import render
+from django.contrib.auth.decorators import login_required
+
 
 def guest_home(request):
     return render(request, 'guest/guest_home.html')
-# Create your views here.
+
+def guest_myinfo(request):
+    return render(request, 'guest/guest_myinfo.html')
