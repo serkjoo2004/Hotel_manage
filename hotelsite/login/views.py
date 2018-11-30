@@ -1,7 +1,6 @@
 from django.shortcuts import render, redirect
 from django.contrib.auth import login, authenticate
 from .forms import LoginForm
-from django.http import HttpResponseRedirect
 
 # def log_in(request):
 #     return render(request, 'sign_in/index.html')
