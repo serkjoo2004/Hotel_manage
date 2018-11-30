@@ -7,4 +7,4 @@ def staff_home(request):
     return render(request, 'staff/staff_home.html', {'rooms':rooms})
 
 def log_out(request):
-    return redirect('/')
+    return redirect('/login/')

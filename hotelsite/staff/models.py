@@ -7,7 +7,6 @@ class Room(models.Model):
         ('DOUBLE', 'Double'),
         ('SUITE', 'Suite')
     )
-
     
     STATUS_CLEAN_IN_CHOICES=(
         ('CLEAN', 'Clean'),
