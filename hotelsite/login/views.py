@@ -15,8 +15,7 @@ def sign_in(request):
 
         if user is not None:
             login(request, user)
-            # return HttpResponseRedirect(request, 'staff/staff_home.html',)
-            return render(request, 'staff/staff_home.html')
+            return redirect('/staff/')
         else:
             return render(request, 'sign_in/index.html')
     else:
