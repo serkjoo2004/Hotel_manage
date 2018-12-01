@@ -14,10 +14,10 @@ def sign_in(request):
 
         if user is not None:
             login(request, user)
-            return redirect('/staff/')
+            return redirect('../')
         else:
-            return render(request, 'sign_in/index.html')
+            return render(request, 'sign_in/log_in.html')
     else:
         form = LoginForm()
-        return render(request, 'sign_in/index.html', {'form':form})
+        return render(request, 'sign_in/log_in.html', {'form':form})
             
