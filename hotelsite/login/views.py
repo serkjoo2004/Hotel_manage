@@ -1,9 +1,8 @@
 from django.shortcuts import render, redirect
-from django.contrib.auth import login, authenticate
+from django.contrib.auth import login, logout, authenticate
 from .forms import LoginForm
+from django.contrib.auth.decorators import login_required
 
-# def log_in(request):
-#     return render(request, 'sign_in/index.html')
 
 def sign_in(request):
     if request.method == "POST":
@@ -20,4 +19,8 @@ def sign_in(request):
     else:
         form = LoginForm()
         return render(request, 'sign_in/log_in.html', {'form':form})
-            
+
+@login_required(login_url='login:sign_in')
+def log_out(request):
+    logout(request)
+    return redirect('login:sign_in')
