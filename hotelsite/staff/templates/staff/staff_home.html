@@ -293,7 +293,7 @@ function button_click()
 <!--이 디비 정보는 히든이라 실제 페이지에서는 안보입니다.-->
 {% for room in rooms %}
     <input class="col-3" type="hidden" name="roomnum" value = {{room.room_num}}>
-    <input class="col-3" type="hidden" name="roomtype" value = {{room.type}}>
+    <input class="col-3" type="hidden" name="roomtype" value = {{room.room_type}}>
     <input class="col-3" type="hidden" name="roomclean" value = {{room.status_clean}}>
 {% endfor %}
     

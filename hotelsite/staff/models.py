@@ -18,7 +18,7 @@ class Room(models.Model):
     status_clean = models.CharField(max_length=10, choices=STATUS_CLEAN_IN_CHOICES, default='CLEAN')  # 0 : 사용중, 1 : 사용가능, 3 : 청소 필요, 4 : 예약
 
     def __str__(self):
-        return str(self.room_num)
+        return str(self.room_num)+'호'
 
 class Department(models.Model): 
     name = models.CharField(max_length = 30) 
