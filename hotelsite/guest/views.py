@@ -10,3 +10,6 @@ def guest_myinfo(request):
 
 def guest_payment(request):
     return render(request, 'guest/payment.html')
+
+def guest_room(request):
+    return render(request, 'guest/guest_room.html')
